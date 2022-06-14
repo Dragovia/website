@@ -1,0 +1,114 @@
+.title{
+    color:lightcoral;
+    font-size: 50px;
+    background-color: rgb(126, 89, 161) ;
+    text-align: center;
+}
+.title1{
+    color:rgb(60, 110, 216);
+    font-size: 50px;
+    background-color: rgb(17, 44, 32) ;
+    text-align: center;
+}
+p{
+    color: #999999;
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    background :rgb(15, 110, 90);
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Numito', sans-serif;
+    font-size: 16px;
+
+}
+input,button{
+    font-family: 'Numito', sans-serif;
+    font-weight: 700;
+}
+
+.main-div, .loggedin-div{
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 20px;
+    display: none;
+}
+
+
+
+.main-div input  {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline : none;
+    width :100%;
+    margin-bottom : 20px;
+    transition : 0.3s;
+    -webkit-transition: 0.3;
+    -moz-transition: 0.3s;
+}
+
+main-div input:focus{
+    border: 1px solid #777;
+
+}
+
+.gaming_pic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #ffff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+
+}
+
+.main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solic #5d8ffc;
+    cursor : pointer;
+
+}
+
+.main-div input:focus{
+    border: 1px solid #999;
+
+}
+
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  .sidebar {
+    margin: 14px;
+    padding: 0;
+    width: 175px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: left;
+    margin-left: 30px;
+  }

@@ -1,0 +1,149 @@
+<html>
+    <head>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<!--script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script-->
+<!--script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script-->
+    </head>
+
+
+
+    <body>
+    <link rel = "stylesheet" href = "Style.css">
+    <style>
+        h1{
+            color:rgb(143, 45, 45);
+            font-size: 70px;
+            background-color: blueviolet ;
+            text-align: center;
+        }
+
+       
+    </style>
+<style>
+        h6{
+            color:rgb(17, 4, 4);
+            font-size: 20px;
+            background-color: rgb(98, 43, 226) ;
+            text-align: center;
+        }
+        
+       
+    </style>
+    <title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+<body>
+      
+<!-- Sidebar -->
+<div class="sidebar">
+    <h3 class="w3-bar-item">Menu</h3>
+    <a href="#" class="w3-bar-item w3-button">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  </div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+    <div class="w3-container w3-teal">
+      <h1>My Page</h1>
+    </div>
+    
+    <img src="img_car.jpg" alt="Car" style="width:100%">
+    
+    <div class="sidebar">=
+    </div>
+    
+    </div>
+
+    </body>
+        <h1>GameForm!</h1>
+        <h2 class ="title">Login to your account!</h2>
+        <p class = "name">Welcome to my website please be sure to sing up!</p>
+     <h6 class ="title1">Hello There and welcome to my website. I have created a sign up page to show 
+         off my game and also learn some CSS and HTML along with some Javascrip. I have also linked some resources
+         to help understand how I made this website and game. Enjoy!
+     </h6>
+        
+
+        <a href="https://github.com/CesarLeon92">My Github!</a>
+        
+<a href="https://firebase.google.com/">Firebase for apps!</a>
+
+<a href="url">link text</a>
+
+
+
+          
+
+
+
+
+            <div id ="login_div" class = "main-div">
+                <h3>  Please log in to continue!</h3>
+        <input type="email" placeholder="email"  id="email_field"/>
+        <input type="password" placeholder="password"  id = "password_field"/>
+            
+        <button onclick="login()">Login to Account</button>
+        <button onclick = "create_account()">Create a new Account </button>
+<!--button onclick="signIn()" id="signIn"> Sign In</button-->
+</div>
+
+<div id = "user_div" class = "loggedin-div">
+
+
+
+
+   <h4 style="background-color:rgb(82, 18, 114);"> <font color = "lightgreen">Welcome User you are currently logged in!</font></h4>
+  <!--p> Welcome to firebase web login example you are currently logged in </p-->
+
+       <button id="myButton" class="float-left submit-button" >Play my games!</button>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://spleeny.itch.io/";
+    };
+</script>
+
+
+        <!--button onclick="signUp()" id="signUp"> Sign Up</button-->
+    
+    <button onclick="logout()" id="signOut"> Sign Out</button>
+
+    <h4>If you want to verify your email to make sure everything is okay click here!</h4>
+    <button onclick="send_verification()">Send Verification</button>
+
+
+
+</div>
+<img class = "gaming_pic" style="align-items: center"; src="gamer.png" alt="examplegame.com" width="300" height="284">
+    
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDnTZv9Rj-jykO6cNVMV4G0KIoeXDV3Yrw",
+    authDomain: "loginform-a3bfc.firebaseapp.com",
+    projectId: "loginform-a3bfc",
+    storageBucket: "loginform-a3bfc.appspot.com",
+    messagingSenderId: "105058579537",
+    appId: "1:105058579537:web:690d629ef779ad6e513470",
+    measurementId: "G-GDWXC37XLL"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<script src="index.js"></script>
+    </body>
+</html>
